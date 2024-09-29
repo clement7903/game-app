@@ -1,0 +1,33 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #f3f0ff;
+    height: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e5dbff;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .navItem {
+    color: #5f3dc4;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navItem:hover {
+    background-color: #d0bfff;
+    border-radius: 8px;
+  }
+  
+  .navItemActive {
+    color: #5f3dc4;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #d0bfff;
+    border-radius: 8px;
+  }
+  
